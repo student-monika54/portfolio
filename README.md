@@ -51,6 +51,30 @@ Preview the production build locally:
 npm run preview
 ```
 
+## Docker
+
+### Build and Run with Docker
+
+Build the image:
+```bash
+docker build -t portfolio-app .
+```
+
+Run the container:
+```bash
+docker run --rm -p 8080:80 portfolio-app
+```
+
+Open [http://localhost:8080](http://localhost:8080).
+
+### Run with Docker Compose
+
+```bash
+docker compose up --build
+```
+
+Open [http://localhost:8080](http://localhost:8080).
+
 ## 🎨 Customization
 
 ### Personal Information
